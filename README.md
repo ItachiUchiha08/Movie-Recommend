@@ -4,7 +4,7 @@
 The **Movie Recommendation System** is a content-based filtering application that suggests movies to users based on their preferences. It utilizes the **TMDB 5000 Movies Dataset** from Kaggle and provides an interactive frontend built with **Streamlit**.
 
 ## ⭐ Features
-- 🎭 Content-based filtering using **TF-IDF Vectorization**.
+- 🎭 Content-based filtering using **CountVectorizer**.
 - 📊 Similarity computation using **Cosine Similarity**.
 - 🎨 Interactive and user-friendly **Streamlit** interface.
 - 🔍 Movie search functionality.
