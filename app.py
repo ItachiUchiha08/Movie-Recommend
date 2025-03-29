@@ -38,7 +38,7 @@ def recommend(movie):
         return [], []
 
 # Streamlit UI
-st.header('Movie Recommender System')
+st.header('Movie Recommender System 🎬 ')
 
 # Load data
 movies = pickle.load(open('movie_list.pkl', 'rb'))
@@ -58,5 +58,5 @@ if st.button('Show Recommendation'):
             with col:
                 st.text(name)
                 st.image(poster)
-    else:
+    else: 
         st.warning("No recommendations found.")
